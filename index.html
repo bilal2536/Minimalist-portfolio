@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist portfolio</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo ir"></div>
+            <nav class="main-nav">
+                <button class="main-nav__toggler" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+                    <span class="main-nav__bar"></span>
+                    <span class="main-nav__bar"></span>
+                    <span class="main-nav__bar"></span>
+                </button>
+                <ul class="main-nav__list" id="menu" hidden="">
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">home</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">portfolio</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+                <a class="btn btn-sep icon-down-arrows" disabled >about me</a>
+            </div>
+        </section>
+        <section class="about-me">
+            <div class="card">
+                <figure class="card-profile-picture">
+                    <img srcset="img/homepage/mobile/image-homepage-profile.jpg, img/homepage/mobile/image-homepage-profile@2x.jpg 2x" src="img/homepage/mobile/image-homepage-profile.jpg" alt="Picture of Alex Spencer" loading="lazy">
+                </figure>
+                <div class="card-profile-desc">
+                    <h2>About Me</h2>
+                    <p>I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s going for a walk, run or cycling. I’d love you to check out my work.</p>
+                    <a class="button-secondary" href="#">go to portfolio</a>
+                </div>
+            </div>
+        </section>
+        <section class="home-contact-section">
+            <h2>Interested in doing a project together?</h2>
+            <a href="button-secondary">contact me</a>
+        </section>
+        <footer class="main-footer">
+            <div class="logo ir"></div>
+            <nav class="footer-nav">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#">home</a></li>
+                    <li class="menu-item"><a href="#">portfolio</a></li>
+                    <li class="menu-item"><a href="#">contact me</a></li>
+                </ul>
+            </nav>
+            <ul class="social-list">
+                <li class="social-item"><a href="https://www.GitHub.com" target="_blank" class="ir">Visit my GitHub</a></li>
+                <li class="social-item"><a href="https://www.twitter.com" target="_blank" class="ir">Visit my Twitter</a></li>
+                <li class="social-item"><a href="https://www.linkedin.com" target="_blank" class="ir">Visit my Linkedin</a></li>
+            </ul>
+        </footer>
+    </main>
+
+
+
+
+    <script src="js/nav.js"></script>
+</body>
+</html>
