@@ -280,8 +280,8 @@ h3 {
 h1, h2 {
      font-size: 4rem;
      line-height: 4.2rem;
-     letter-spacing: -0.45;
-     margin-bottom: 0.5em;
+     letter-spacing: -0.36px;
+     margin-bottom: 0.8em;
 }
 
 h3 {
@@ -291,13 +291,17 @@ h3 {
 }
 
 p {
-     margin-bottom: 1.8rem;
+     margin-bottom: 2rem;
 }
 
 a {
      color: var(--grayish-dark-blue);
      text-transform: uppercase;
      text-decoration: none;
+}
+
+.image-tablet{
+     display: none;
 }
 
 
@@ -315,6 +319,7 @@ a {
      .container {
           max-width: 111rem;
      }
+
 }
 
 @media screen and (min-width: 75em) {
@@ -329,6 +334,8 @@ a {
      }
 }
 /** Component **/
+
+
 
 /* button style */
 .btn {
@@ -403,9 +410,12 @@ a {
 
 .button-secondary {
      border: 1px solid var(--grayish-dark-blue);
-     padding: 1.9rem 3.4rem;
+     padding: 1.6rem 3.4rem;
      font-size: 1.2rem;
      font-family: 'Public Sans', sans-serif;
+     height: fit-content;
+     line-height: 1.2;
+     text-align: center;
 }
 
 .button-secondary:hover {
@@ -628,14 +638,15 @@ a {
           background-color: var(--grayish-dark-blue);
      }
 
-     .menu, .main-footer .container{
-          display: flex;
-          flex-direction: row;
-          align-items: center;
+     .main-footer .container{
+          display: grid;
+          grid-template-columns: 6rem 1fr 10.4rem ;
      }
 
      .menu {
           height: auto;
+          display: flex;
+          flex-direction: row;
      }
      
      .footer-nav, .main-footer .logo{
@@ -648,6 +659,7 @@ a {
 
      .footer-nav {
           width: 30.7rem;
+          margin-left: 4.8rem;
      }
 
      
