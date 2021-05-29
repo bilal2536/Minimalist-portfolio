@@ -307,6 +307,9 @@ p {
           width: 100%;
           background-color: var(--very-light-grey);
      }
+     .main-nav__toggler[aria-expanded="true"] + .main-nav__list {
+          display: flex;
+     }
      .main-nav__link{
           color: var(--grayish-dark-blue);
      }
