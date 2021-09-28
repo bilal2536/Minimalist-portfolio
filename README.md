@@ -2,8 +2,6 @@
 
 Lien du projet : https://bilal2536.github.io/Minimalist-portfolio/ 
 
-<img src="">
-
 L'intégration d'une maquette en respectant le responsive design. L'objectif étant d'appliquer les bonnes pratiques d'intégration. 
 
 ## Travail effectué 
@@ -23,5 +21,7 @@ Avantages :
 - Comprendre l'intérêt des classes génériques et consolider des bases solides.   
 
 
-
+## Image de la front-page 
 ![Screenshot 2021-09-28 at 22-51-02 Home](https://user-images.githubusercontent.com/61947370/135174757-f72e3c3c-3018-42e6-81ef-88e12b815438.png)
+
+Voici le lien pour y jeter un oeil ! ==> https://bilal2536.github.io/Minimalist-portfolio/ 
