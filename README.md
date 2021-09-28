@@ -26,3 +26,8 @@ Avantages :
 ![Screenshot 2021-09-28 at 22-51-02 Home](https://user-images.githubusercontent.com/61947370/135174757-f72e3c3c-3018-42e6-81ef-88e12b815438.png)
 
 Voici le lien pour y jeter un oeil ! ==> https://bilal2536.github.io/Minimalist-portfolio/ 
+
+# Autres intégrations 
+
+- https://bilal2536.github.io/Huddle-landing-page/
+- https://bilal2536.github.io/Ubiquity-landing-page/
