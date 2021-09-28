@@ -1,3 +1,12 @@
-# Minimalist-portfolio
+# Minimalist-portfolio (HTML&CSS)
 
-Ce projet est l'integration d'une maquette en responsive design réalisée en HTML&CSS
+Lien du projet : https://bilal2536.github.io/Minimalist-portfolio/ 
+
+L'integration d'une maquette en respectant le responsive design. L'objectif étant d'appliquer les bonnes pratiques d'integration. 
+
+## Travail effectué 
+
+- Etats hover & éléments interactifs 
+- 
+
+
