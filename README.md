@@ -13,7 +13,8 @@ L'intégration d'une maquette en respectant le responsive design. L'objectif ét
 
 ## Conclusion exercice 
 
-Avantages :
+###Avantages :
+
 - Simple et très rapide à réaliser.
 - Comprendre et faire du responsive design.
 - M'a permis de découvrir des petit tricks suplémentaires en CSS.
